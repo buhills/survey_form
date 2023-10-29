@@ -5,6 +5,11 @@ body {
   line-height: 1.4;
   color: #f9f7f7;
   margin: 0;
+  background-color: #090202;
+  background-image: linear-gradient( 115deg, #3a3a9ecc, #8888ceb3 ), url(../images/learntocode.jpeg)                ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 body::before {
@@ -23,7 +28,8 @@ body::before {
 
 .header {
   padding: 1rem;
-  margin: 7rem;
+  margin: 1rem;
+  text-align: center;
   color: #000;
   width: auto;
 }
@@ -32,7 +38,6 @@ h1,
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  text-align: left;
   color: #fbf8f8;
 }
 
@@ -60,9 +65,10 @@ button {
 .container {
   max-width: 720px;
   min-width: 768px;
-  background-color: #47544d;
   width: 100%;
-  margin: 5rem auto auto;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .description {
@@ -82,9 +88,10 @@ button {
 }
 
 form {
-  background: #61614e;
+  background: #1b1b32cc;
   padding: 4rem;
   border-radius: 0.25rem;
+  height: auto;
 }
 
 .form-group {
@@ -96,7 +103,6 @@ form {
   display: block;
   width: 100%;
   height: 2.375rem;
-  padding: 0.375rem 0.75rem;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
@@ -110,6 +116,11 @@ form {
   box-shadow: 0 0 0 0.2rem #007bff40;
 }
 
+input.form-control {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+}
 .input-radio,
 .input-checkbox {
   display: inline-block;
@@ -121,18 +132,19 @@ form {
 .input-textarea {
   min-height: 120px;
   width: 100%;
-  padding: 0.625rem;
+  padding: 0.65rem;
   resize: vertical;
   border-radius: 10px;
 }
 
 .submit-button {
   display: block;
-  width: auto 300%;
+  width: 100%;
   padding: 0.95rem;
-  background: green;
-  color: #fff;
+  background: #37af65;
+  color: #ffffff;
   cursor: pointer;
-  border-radius: 10px;
-  margin: 0px 300px;
+  border-radius: 1px;
+  margin: auto;
+
 }

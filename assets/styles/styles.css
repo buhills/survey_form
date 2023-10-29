@@ -128,7 +128,7 @@ form {
 
 .submit-button {
   display: block;
-  width: 0 auto 300%;
+  width: auto 300%;
   padding: 0.95rem;
   background: green;
   color: #fff;
